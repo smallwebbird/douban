@@ -1,0 +1,71 @@
+.hotSong{
+    width: 675px;
+    height: 587px;
+    background: #F5F7F8;
+    margin-top: 30px;
+}
+.hotSong_head{
+    width: 675px;
+    height: 29px;
+    border-bottom: 2px solid #138A64;
+    padding-top: 5px;
+    background:white;
+}
+.xinge{
+    font-size: 17px;
+}
+.hotOther{
+    display:inline-block;
+    margin-left: 20px;
+}
+.hotMore{
+    margin-left: 320px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.hotMore:hover{
+    background: #666699;
+    color: white;
+}
+
+
+
+.hotOther .active{
+    color: #138A64 !important;
+    font-weight: bolder;
+}
+.hotOther #zuire1{
+    color: #999;
+    font-size: 13px;
+}
+.hotOther #zuire1:hover{
+    color: #138A64;
+}
+.hotOther #liuxing{
+    color: #999;
+    font-size: 13px;
+}
+.hotOther #liuxing:hover{
+    color: #138A64;
+}
+.hotOther #yaogun{
+    color: #999;
+    font-size: 13px;
+}
+.hotOther #yaogun:hover{
+    color: #138A64;
+}
+.hotOther #minyao{
+    color: #999;
+    font-size: 13px;
+}
+.hotOther #minyao:hover{
+    color: #138A64;
+}
+.hotOther #yuansheng{
+    color: #999;
+    font-size: 13px;
+}
+.hotOther #yuansheng:hover{
+    color: #138A64;
+} 

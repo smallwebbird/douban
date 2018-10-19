@@ -1,0 +1,75 @@
+a{
+    text-decoration: none;
+}
+.newCd{
+    width: 675px;
+    height: 520px;
+    margin-top: 30px;
+    background: #F5F7F8
+}
+
+.newCd .newCd_header{
+    width: 675px;
+    height: 29px;
+    border-bottom: 2px solid #138A64;
+    padding-top: 5px;
+    background:white;
+}
+.xinge{
+    font-size: 17px;
+}
+.other{
+    display:inline-block;
+    margin-left: 20px;
+}
+.more{
+    margin-left: 370px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.more:hover{
+    background: #666699;
+    color: white;
+}
+
+
+
+.other .active{
+    color: #138A64 !important;
+    font-weight: bolder;
+}
+.other #zuire{
+    color: #999;
+    font-size: 13px;
+}
+.other #zuire:hover{
+    color: #138A64;
+}
+.other #huayu{
+    color: #999;
+    font-size: 13px;
+}
+.other #huayu:hover{
+    color: #138A64;
+}
+.other #oumei{
+    color: #999;
+    font-size: 13px;
+}
+.other #oumei:hover{
+    color: #138A64;
+}
+.other #rihan{
+    color: #999;
+    font-size: 13px;
+}
+.other #rihan:hover{
+    color: #138A64;
+}
+.other #danqu{
+    color: #999;
+    font-size: 13px;
+}
+.other #danqu:hover{
+    color: #138A64;
+} 

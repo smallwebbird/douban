@@ -1,0 +1,59 @@
+.newCd_content{
+    width: 675px;
+    height: 480px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.newCd_content .newCd_all{
+    width: 145px;
+    height: 224px;
+    margin-left: 20px;
+}
+.newCd_pic{
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+}
+.newCd_name{
+        display: inline-block;
+        width: 80px;
+        margin-top:8px;
+        margin-left: 10px;
+        font-size: 15px;
+        color:#138A64;
+        cursor: pointer;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+}
+.newCd_name:hover{
+    background: #138A64;
+    color: white;
+}
+
+.newCd_artist{
+    margin-top:5px;
+    margin-left: 10px;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+}
+.newCd_grade{
+    display: inline-block;
+    margin-left: 10px;
+}
+.newCd_grade{
+    font-size: 13px;
+    color:orange;
+}
+/* .newCd_grade .star{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background: url(../components/star.png)
+} */
