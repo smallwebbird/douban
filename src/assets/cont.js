@@ -14,8 +14,40 @@ window.onload = function(){
             wheel_img.style.left = 0+'px';
         }
     },false);
-
-
+    var timer = setInterval(function(){
+        index++;
+        wheel_img.style.transform = 'translateX('+ (-index*Distance) + 'px)';
+        if(index > 5){
+            index=0;
+            wheel_img.style.left = 0+'px';
+        }
+    },1000)
+    wheel_next.addEventListener('mouseenter',function(){
+        clearInterval(timer);
+    },false)
+    wheel_next.addEventListener('mouseleave', function(){
+        timer = setInterval(function(){
+            index++;
+        wheel_img.style.transform = 'translateX('+ (-index*Distance) + 'px)';
+        if(index > 5){
+            index=0;
+            wheel_img.style.left = 0+'px';
+        }
+        },1000)
+    },false)
+    wheel_img.addEventListener('mouseenter',function(){
+        clearInterval(timer);
+    },false);
+    wheel_img.addEventListener('mouseleave', function(){
+        timer = setInterval(function(){
+            index++;
+        wheel_img.style.transform = 'translateX('+ (-index*Distance) + 'px)';
+        if(index > 5){
+            index=0;
+            wheel_img.style.left = 0+'px';
+        }
+        },1000);
+    }, false);
     //俩个按钮
     var editLeft = document.getElementById('edit_arrow_left');
     var editRight = document.getElementById('edit_arrow_right');
